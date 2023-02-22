@@ -1,0 +1,30 @@
+@media screen and (max-width: 1199px){
+	.section-two:after {
+	    content: "";
+	    position: absolute;
+	    top: 0;
+	    left: -114px;
+	    width: calc(100% + 360px);
+	    height: 100%;
+	    background-color: #f08380;
+	    z-index: -1;
+	    transform: rotate(0deg);
+	}
+}
+/* ==================== max-width : 767px =======================  */
+@media screen and (max-width: 767px) {
+	.section-one .images-bx-outer {
+	    margin-top: 20px;
+	}
+	section.section-three {
+	    position: relative;
+	    top: -20px;
+	}
+	.up-line-bx {
+		position: unset!important;
+	}
+	.section-two .content-outer {
+		margin-bottom: 30px;
+	}
+}
+/* ==================== max-width : 767px =======================  */
